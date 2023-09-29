@@ -1,0 +1,82 @@
+header{
+    display:flex;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header a{
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li{
+    font-size: 4rem;
+}
+#navbar ul li a{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: yellow;
+}
+#About{
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+    border: black solid 5px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#About a{
+    background-color: blue;
+    color: aliceblue;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+}
+#About a:hover{
+    background-color: green;
+}
+p{
+    font-size: large;
+}
+#dept{
+    border:black solid 5px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 30px 20px 30px;
+    text-align: center;
+
+}
+#dept table{
+    border: rgb(110, 110, 31) solid 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+    height: 500px;
+    width: 100%;
+}
+#dept table th{
+    font-size: 25px;
+    color: rgb(114, 20, 20);
+}
+#dept table a{
+    text-decoration: none;
+}
