@@ -80,3 +80,46 @@ p{
 #dept table a{
     text-decoration: none;
 }
+#ach{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin:20px 210px 20px 210px;
+}
+#placement{
+    border: black solid 5px;
+    margin:20px 30px 20px 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#placement .rec{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#placement .rec img{
+    border:rgb(68, 122, 68) solid 1px;
+    margin:10px;
+}
+#placement a{
+    background-color: blue;
+    color: aliceblue;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+#placement a:hover{
+    background-color: rgb(158, 129, 75);
+}
+footer{
+    display: flex;
+    color: white;
+    background-color: rgb(38, 34, 34);
+}
+footer #add{
+    margin-left: 250px;
+    margin-right: 200px;
+}
+footer form{
+    margin-right: 200px;
+    text-align: center;
+}
