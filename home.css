@@ -1,11 +1,11 @@
 *{
     margin:0;
     padding:0; 
+    justify-content: center;
 }
 header{
     display:flex;
     text-align: center;
-    margin-left: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -38,45 +38,33 @@ header a{
 }
 #About{
     text-align: center;
-    margin: 20px 30px 20px 30px;
-    border: black solid 5px;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    line-height: 50px;
+    margin: 50px 30px 0px 30px;
 }
 #About a{
     background-color: blue;
     color: aliceblue;
     padding: 1rem 1rem;
-    text-align: center;
-    text-decoration: none;
+    text-align: Justify;
+    text-decoration: none;    
 }
 h1{
     font-size: 40px;
 }
 #About a:hover{
-    background-color: green;
+    background-color: white;
+    border: yellow solid 2px;
+    color: rgb(212, 212, 30);
 }
 p{
     font-size: large;
 }
 #dept{
-    border:black solid 5px;
-    padding-left:50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 20px 30px 20px 30px;
+    margin: 50px 0px 50px 0px;
     text-align: center;
 
 }
 #dept table{
-    border: rgb(110, 110, 31) solid 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: larger;
     height: 500px;
     width: 100%;
 }
@@ -90,13 +78,13 @@ p{
 #ach{
     display: flex;
     text-align: center;
-    margin-left: 200px;
+    margin: 50px 0px 50px 0px;
+    justify-content: center;
 }
 #placement{
-    border: black solid 5px;
-    margin:20px 30px 20px 30px;
+    margin:50px 0px 50px 0px;
     text-align: center;
-    padding-bottom: 40px;
+    line-height: 50px;
 }
 #placement .rec{
     margin-top: 30px;
@@ -114,7 +102,9 @@ p{
     text-decoration: none;
 }
 #placement a:hover{
-    background-color: rgb(158, 129, 75);
+    color: rgb(225, 225, 9);
+    border: rgb(171, 171, 56) solid 2px;
+    background-color: white;
 }
 footer{
     display: flex;
@@ -122,10 +112,12 @@ footer{
     background-color: rgb(38, 34, 34);
 }
 footer #add{
-    margin-left: 250px;
+    margin-top: 40px;
     margin-right: 200px;
 }
-footer form{
-    margin-right: 200px;
-    text-align: center;
+footer #ab{
+    margin-top: 40px;
+}
+footer h2{
+    color: yellow;
 }

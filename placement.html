@@ -8,16 +8,25 @@
         *{
             margin: 0;
             padding: 0;
+            justify-content: center;
         }
         header{
             display:flex;
-            text-align: center;
-            margin-left: 300px;
             margin-top: 10px;
             margin-bottom: 10px;
         }
         header a{
             text-decoration: none;
+        }
+        #home img{
+            margin: 5px 0px 5px 10px;
+            border: black solid 4px;
+            border-radius: 10px;
+            padding: 4px;
+            background-color: gray;
+        }
+        #home img:hover{
+            background-color: yellow;
         }
         #plac{
             background-color: rgb(48, 42, 42);
@@ -31,7 +40,6 @@
 
         }
         #record{
-            background-color: aqua;
             text-align: center;
             margin-top: 20px;
             margin-bottom: 20px;
@@ -55,13 +63,15 @@
             background-color: rgb(38, 34, 34);
         }
         footer #add{
-            margin-left: 250px;
+            margin-top: 40px;
             margin-right: 200px;
         }
-        footer form{
-            margin-right: 200px;
-            text-align: center;
+        footer #ab{
+            margin-top: 40px;
         }
+footer h2{
+    color: yellow;
+}
         </style>
 </head>
 <body>
@@ -79,24 +89,31 @@
             <img src="https://www.akgec.ac.in/wp-content/uploads/2023/08/NAACLogo.jpg" height="80px">
         </div>
     </header>
+    <div id="home">
+        <a href="index.html"><img src="icons\home.png" height="50px"></a>
+    </div>
     <div id="plac">
         <br>
         <h1>Placements</h1><br>
-    </div>
+    </div><br>
     <section id="high">
-        <h1>Placement Highlights</h1>
-        <img src="https://www.akgec.ac.in/wp-content/uploads/2022/12/PlacementHighlights1.jpg">
-        <img src="https://www.akgec.ac.in/wp-content/uploads/2023/01/PlacementHighlights2.jpg">
-        <img src="https://www.akgec.ac.in/wp-content/uploads/2022/12/PlacementHighlights4.jpg">
-    </section><br><br>
+        <h1>Placement Highlights</h1><br><br>
+        <img src="https://www.akgec.ac.in/wp-content/uploads/2022/12/PlacementHighlights1.jpg"><br>
+        <img src="https://www.akgec.ac.in/wp-content/uploads/2023/01/PlacementHighlights2.jpg"><br>
+        <img src="https://www.akgec.ac.in/wp-content/uploads/2022/12/PlacementHighlights4.jpg"><br>
+    </section>
+    <hr color="yellow" size="5px">
+    <br><br>
     <section id="record">
-        <h1>Placement Records</h1>
-        <img src="https://www.akgec.ac.in/wp-content/uploads/2022/12/PlacementGraph2022.jpg">
+        <h1>Placement Records</h1><br><br>
+        <img src="https://www.akgec.ac.in/wp-content/uploads/2022/12/PlacementGraph2022.jpg"><br>
         <img src="https://www.akgec.ac.in/wp-content/uploads/2022/08/PLACEMENT-GRAPH.png"><br>
-    </section><br><br>
+    </section>
+    <hr color="yellow" size="5px">
+    <br><br>
     <div id="tph">
         <h1>T&P Department</h1>
-    </div>
+    </div><br><br>
     <section id="tp">
         <div style="margin-right: 20px;">
             <pre>
@@ -160,17 +177,7 @@ Admissions Enquiry: 1800-200-0777
 Mail: info@akgec.ac.in
         </pre>
     </div>
-    <div>
-        <h2>Ask Anything:</h2>
-        <form action="enquiry.php">
-            <input type="text" placeholder="Enter Your Name"><br><br>
-            <input type="text" placeholder="Enter Your Email"><br><br>
-            <textarea type="text">
-            </textarea><br>
-            <input type="Submit">
-        </form>
-    </div>
-    <div>
+    <div id="ab">
         <pre>
 <h2>About AKGEC</h2>
 Ajay Kumar Garg Engineering College (AKGEC)

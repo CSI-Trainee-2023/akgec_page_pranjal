@@ -8,16 +8,25 @@
         *{
             margin: 0;
             padding: 0;
+            justify-content: center;
         }
         header{
             display:flex;
-            text-align: center;
-            margin-left: 300px;
             margin-top: 10px;
             margin-bottom: 10px;
         }
         header a{
             text-decoration: none;
+        }
+        #home img{
+            margin: 5px 0px 5px 10px;
+            border: black solid 4px;
+            border-radius: 10px;
+            padding: 4px;
+            background-color: gray;
+        }
+        #home img:hover{
+            background-color: yellow;
         }
         #about{
             text-align: center;
@@ -26,6 +35,7 @@
         }
         #para{
             margin: 15px 40px 15px 40px;
+            text-align: justify;
         }
         footer{
             display: flex;
@@ -33,12 +43,14 @@
             background-color: rgb(38, 34, 34);
         }
         footer #add{
-            margin-left: 250px;
+            margin-top: 40px;
             margin-right: 200px;
         }
-        footer form{
-            margin-right: 200px;
-            text-align: center;
+        footer #ab{
+            margin-top: 40px;
+        }
+        footer h2{
+            color: yellow;
         }
     </style>
 </head>
@@ -57,6 +69,9 @@
             <img src="https://www.akgec.ac.in/wp-content/uploads/2023/08/NAACLogo.jpg" height="80px">
         </div>
     </header>
+    <div id="home">
+        <a href="index.html"><img src="icons\home.png" height="50px"></a>
+    </div>
     <div id="about">
         <h1>ABOUT AKGEC</h1>
     </div>
@@ -144,17 +159,7 @@ Admissions Enquiry: 1800-200-0777
 Mail: info@akgec.ac.in
             </pre>
         </div>
-        <div>
-            <h2>Ask Anything:</h2>
-            <form action="enquiry.php">
-                <input type="text" placeholder="Enter Your Name"><br><br>
-                <input type="text" placeholder="Enter Your Email"><br><br>
-                <textarea type="text">
-                </textarea><br>
-                <input type="Submit">
-            </form>
-        </div>
-        <div>
+        <div id="ab">
             <pre>
 <h2>About AKGEC</h2>
 Ajay Kumar Garg Engineering College (AKGEC)
